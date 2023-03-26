@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- 
+        img
+        -图片标签
+        -是自结束标签
+        -属性:
+             src 表示图片路径
+                 -需要一个路径参数
+            alt:对图片的描述
+                -帮助搜索引擎识别图片内容
+                -若不写alt则搜索引擎不会收录图片
+            width
+            height 若要保证图片比例,只需要改其中一个
+
+ 图片格式：
+    gif : 动图 颜色单一 可以有简单透明度
+    jpg ： 颜色多 不支持透明  显示照片
+    png : 颜色多 支持透明 网页应用多
+    webp： 兼具上述所有优点
+    base64: 将图片转换为文本，图片与网页一起加载，提升图片加载速度,但会导致网页加载慢
+    
+    
+
+            
+            
+     -->
+<img src="1.png" alt="">
+
+<!-- 
+
+绝对路径与相对路径
+    -绝对路径
+        -https://tse1-mm.cn.bing.net/th/id/OIP-C.S5iMDmOjSgZzcoR5Pib3CQHaI9?w=186&h=225&c=7&r=0&o=5&dpr=1.5&pid=1.7
+
+    -相对路径
+        -./当前目录,./可以省略
+        -../上一级目录
+        -有几个../就有几个上级目录
+ -->
+
+<img src="https://tse1-mm.cn.bing.net/th/id/OIP-C.S5iMDmOjSgZzcoR5Pib3CQHaI9?w=186&h=225&c=7&r=0&o=5&dpr=1.5&pid=1.7" alt="">
+<img src="./1.png" alt="">
+<img src="../m.png" alt="">
+</body>
+</html>

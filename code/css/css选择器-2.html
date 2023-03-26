@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<style>
+
+
+    /* 
+    伪类是一种特殊的类，表示元素的特殊状态
+    
+    
+    */
+/* 默认
+    a:link{
+
+        color: red;
+
+
+    }
+
+已经打开过，有历史记录
+    a:visited{
+
+        color: black
+    }
+
+鼠标放上面
+    a:hover{
+
+
+        color: yellow
+    }
+
+鼠标点击不放时
+    a:active{
+
+
+        color: green;
+    } */
+
+
+
+
+/* 结构伪类 
+
+：root
+    -根元素
+：empty
+    -空元素
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+*/
+
+
+
+
+
+.box1, .box2{
+
+    width: 100px;
+    height: 100px;
+    border: 3px solid green;
+}
+div{
+
+    background:yellow;
+}
+
+div:empty{
+    background:red
+}
+</style>
+
+
+
+
+
+</head>
+<body>
+    
+    <a href="https://www.bilibili.com/video/BV18T411S71R?p=26&vd_source=488e1482ef9936c5239f0827ba658ebf">aaa</a>
+    <a href="https://search.bilibili.com/all?vt=97058243&keyword=%E6%9D%8E%E7%AB%8B%E8%B6%85%E8%80%81%E5%B8%88&from_source=webtop_search&spm_id_from=333.1007&search_source=2">bbb</a>
+    
+    <div class="box1">box1</div>
+    <div class="box2"></div>
+</body>
+</html>
